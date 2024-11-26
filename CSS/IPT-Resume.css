@@ -4,13 +4,13 @@ html {
 body{
     padding:0;
     margin:0;
-    background-image: url("/PUBLIC/bgblur.jpg");
+    background-image: url("/img/bgblur.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 20% 100%;
     width: 100vw;
     height: 100vh;
-    
+    overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
 
       
@@ -23,7 +23,7 @@ body{
         margin: 4% 20%;
         width: 65%;
         height: 80%;
-        background-image: url("/PUBLIC/bg.jpeg");
+        background-image: url("/img/bg.jpeg");
         background-repeat: no-repeat;
         background-size:100vw;
         background-position: 60% 80%;
@@ -68,7 +68,7 @@ body{
     }
 
     #img{
-        background-image: url("/PUBLIC/profile.jpg");
+        background-image: url("/img/profile.jpg");
         background-size: 50vh;
         background-position: 50% 30%;
     width:15%;
@@ -243,3 +243,189 @@ strong{
 }
 
 
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 30px 30px; 
+    border-radius: 5px;
+    text-shadow: 0px 5px 10px #070606;
+}
+.experience-title {
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f5c52d;
+    padding-bottom: 5px;
+}
+.experience-details {
+    margin-top: 5px;
+    font-size: 14.5px;
+    line-height: 1.5;
+}
+
+#projbox{
+    height: 95%;
+    width: 100%;
+    position: absolute;
+}
+
+#Mythology{
+    height: 50%;
+
+    display: flex;
+}
+
+#ausol{
+    background-image: url("/img/ausol.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#pyke{
+    background-image: url("/img/pyke.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#tahm{
+    background-image: url("/img/tahm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#jhin{
+    background-image: url("/img/jhin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.imgcont{
+    position: relative;
+    height: 80%;
+    width: 30%;
+    padding: 0;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+
+.textile{
+    position: relative;
+    left: 37%;
+    bottom: 13%;
+}
+.textile1{
+    position: relative;
+    left: 30%;
+    bottom: 72%;
+}
+
+#Cyberkinetic{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    bottom: 10%;
+    display: flex;
+
+}
+
+#calcu{
+    background-image: url("/img/calcu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cal{
+    background-image: url("/img/cal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#quiz{
+    background-image: url("/img/quiz.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#about1{
+    background-image: url("/img/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.mafia-contact {
+    background-color: #2f2f2f; /* Dark background for that mafia mood */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border: 2px solid #d1a500; /* Goldish border for a mafia touch */
+}
+
+.mafia-contact h2 {
+    font-size: 24px;
+    color: #d1a500; /* Goldish color for the heading */
+    font-family: 'Arial Black', sans-serif; /* Bold font for emphasis */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.mafia-contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.mafia-contact .label {
+    font-weight: bold;
+    color: #d1a500; /* Gold color for labels */
+}
+
+#number{
+    font-weight: bold;
+    color: #f39c12;
+
+}
+
+.mafia-contact a {
+    color: #f39c12; /* Gold link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mafia-contact a:hover {
+    color: #f1c40f; /* Brighter gold on hover */
+    text-decoration: underline;
+}
+
+.mafia-contact p span {
+    color: #d1a500; /* Goldish text for labels */
+    font-weight: bold;
+}
+
+.mafia-contact a {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #444; /* Dark button background */
+    margin-top: 5px;
+    border: 2px solid #f39c12; /* Border to enhance the "button" feel */
+    transition: background-color 0.3s;
+}
+
+.mafia-contact a:hover {
+    background-color: #f39c12; /* Hover effect - gold background */
+    color: #2f2f2f; /* Dark text when hovered */
+    border-color: #d1a500;
+}
