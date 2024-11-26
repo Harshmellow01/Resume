@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    //collects data from aside .click .link
     const links = document.querySelectorAll("aside .click .link");
 
     links.forEach(link => {
