@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding:0;
+    margin:0;
+    background-image: url("/PUBLIC/bgblur.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+    width: 100vw;
+    height: 100vh;
+    
+    font-family: 'Courier New', Courier, monospace;
+
+      
+    }
+    
+
+    #container{
+
+        position: absolute;
+        margin: 4% 20%;
+        width: 65%;
+        height: 80%;
+        background-image: url("/PUBLIC/bg.jpeg");
+        background-repeat: no-repeat;
+        background-size:100vw;
+        background-position: 60% 80%;
+        box-shadow:  0px 0px 2px 2px rgba(245, 226, 166, 0.508),0px 0px 2px 3px rgba(247, 247, 185, 0.708), 0px 0px 5px 5px  rgba(228, 166, 69, 0.851),0px 0px 5px 5px  rgba(151, 82, 34, 0.851) ;
+        border-radius: 5px;
+    }
+    
+
+    header{
+        background-color:rgba(27, 26, 26, 0.507);
+        display:flex;
+        padding:1%;
+        height:30%;
+        text-shadow: 0px 0px 5px #080603, 0px 0px 5px #070606;
+        
+        }
+
+    #h1{
+        font-size: 6vh;
+        margin-top: 1%;
+        font-weight: 300;
+        color: white;
+    }
+
+    #h5{
+        margin: 0.5%;
+        font-size: 5vh ;
+        font-weight: 700px;
+        color: #E4A645;
+        }
+    
+    #name{
+
+        margin: 0;
+        margin-left: 1%;
+        padding: 2% 5%;
+        border: 1px solid rgba(228, 167, 69, 0.623);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.575);
+        border-radius: 5px;
+        width: 44vw;
+   
+    }
+
+    #img{
+        background-image: url("/PUBLIC/profile.jpg");
+        background-size: 50vh;
+        background-position: 50% 30%;
+    width:15%;
+    margin:2% 3% 2%;
+    border-radius:50%;
+ box-shadow:  0px 0px 1px 2px #E4A645,0px 0px 5px 5px rgba(0, 0, 0, 0.708),0px 0px 10px 10px rgba(0, 0, 0, 0.514);
+    }
+
+    
+
+    #contents{
+        display: flex;
+        height: 66%;
+        
+
+    }
+
+    aside{
+ 
+        width: 22%;
+        height: 100%;
+  
+        text-shadow: 0px 2px 5px rgb(0, 0, 0),0px 2px 5px rgb(0, 0, 0),0px 2px 5px rgb(0, 0, 0);
+        
+    }
+
+    .link {
+        color: #E4A645;
+        height: 20%;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+       
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vh;
+        width: 14.5vw;
+        transition: font-size 0.1s ease;
+        
+
+    }
+
+    .link.active {
+        background-color: black;
+        color: white;
+    }
+
+    .click{
+        text-decoration: none;
+    }
+    
+    .link:hover {
+        background-color: black;
+        transition: background-color 0.4s ease-out;
+        width: 14.5vw;
+       font-size: 4.5vh;
+    }
+
+    #contents{
+        padding:0;
+        background-color:rgba(27, 26, 26, 0.507);
+    }
+
+    .lalagyan{
+        position: absolute;
+        border: 1px solid #E4A645;
+        width: 76.3%;
+        height: 65.5%;
+        padding: 0;
+        bottom: 1%;
+        left: 22.4%;
+        border-radius: 5px;
+        display: none;
+        color: #E4A645;
+        box-shadow:  0px 0px 2px 2px rgba(0, 0, 0, 0.514),0px 0px 5px 5px rgba(0, 0, 0, 0.514);
+        background-color: rgba(43, 43, 43, 0.904);
+
+
+    }
+#about:target,
+#educ:target,
+#exp:target,
+#proj:target,
+#cont:target{
+    display: block;
+ 
+    
+
+}
+
+
+
+#aboutcont{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    padding: 5% 4%;
+    font-family: 'Courier New', Courier, monospace; /* Gives a vintage, typewriter-like feel */
+    text-align: justify; /* Align text evenly on both sides for a neat appearance */
+    border-radius: 8px; /* Slightly rounded edges for a polished look */
+    line-height: 1.6; /* Ensures the text is not too cramped */
+}
+
+
+#educcont {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    padding: 25px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E4A645;
+}
+
+#left-column,
+#right-column {
+    width: 45%;
+}
+
+#center-line {
+    position: absolute;
+    width: 2px;
+    height: 95%;
+    background-color: #E4A645;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+strong{
+    font-size: 1.5em;
+    text-shadow: 0px 5px 10px #070606;
+    font-weight: normal;
+}
+.school-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    display: block;
+    text-shadow: 0px 5px 10px #070606;
+}
+
+.detail {
+    font-size: 1em;
+    width: 10%;
+    
+
+}
+
+.ans {
+    font-style: normal;
+    color: #ffffff; /* Adjust as needed for contrast */
+    font-size: 0.5 em;
+
+}
+
+.spancont{
+    margin-bottom: 5px;
+    display: block;
+    text-shadow: 0px 5px 10px #070606;
+    margin-left: 10%;
+}
+
+#high-school{
+ position: relative;
+ top: 17%;
+}
+#elementary{
+    position: relative;
+    top: 10%;
+}
+
+

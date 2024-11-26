@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/IPT-Resume.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="img"></div>
+            <div id="name">
+                <p id="h5">Hello!</p>
+                <p id="h1">I'm Paclibar, Thor Andree</p>
+            </div>
+        </header>
+
+        <div id="contents">
+            <aside>
+                <a href="#about" class="click"><div class="link"><p>About me</p></div></a>
+                <a href="#educ" class="click"><div class="link"><p>Education</p></div></a>
+                <a href="#exp" class="click"><div class="link"><p>Experience</p></div></a>
+                <a href="#proj" class="click"><div class="link"><p>Projects</p></div></a>
+                <a href="#cont" class="click"><div class="link"><p>Contacts</p></div></a>
+            </aside>
+
+            <main>
+                <div class="lalagyan" id="about">
+                    <div id="aboutcont">
+                        I’m someone who likes to create things out of my imagination and solve problems like cracking a tough code. I’ve got skills in web development, especially in HTML and CSS, and I know how to work with a team to get the job done. Problem-solving and adapting to any situation? That’s my thing. Whether it’s front-end or back-end, I make sure the work speaks for itself. One of my proudest moments was building a quiz game—it’s proof that when I set my mind to something, I deliver with style and effort.
+                    </div>
+                </div>
+                <div class="lalagyan" id="educ">
+                    <div id="educcont">
+                        <div id="left-column">
+                            <div id="college">
+                                <strong>College:</strong> 
+                                <em class="school-name">City of Malabon University</em> 
+                                <span class="spancont"><span class="detail">Course:</span> <i class="ans">Bachelor of Science in Information Technology</i></span> 
+                                <span class="spancont"><span class="detail">School Year:</span> <i class="ans">2022 - Present</i></span> 
+                                <span class="spancont"><span class="detail">Address:</span> <i class="ans">Malabon City</i></span>
+                            </div>
+                    
+                            <div id="high-school">
+                                <strong>High School:</strong> 
+                                <em class="school-name">Longos National High School</em> 
+                                <span class="spancont"><span class="detail">School Year:</span> <i class="ans">2016 - 2020</i></span> 
+                                <span class="spancont"><span class="detail">Address:</span> <i class="ans">Malabon City</i></span>
+                            </div>
+                        </div>
+                    
+                        <div id="center-line"></div>
+                    
+                        <div id="right-column">
+                            <div id="senior-high">
+                                <strong>Senior High:</strong> 
+                                <em class="school-name">Arellano University JRC</em> 
+                                <span class="spancont"><span class="detail">Strand:</span> <i class="ans">Science, Technology, Engineering, and Mathematics</i></span> 
+                                <span class="spancont"><span class="detail">School Year:</span> <i class="ans">2020 - 2022</i></span> 
+                                <span class="spancont"><span class="detail">Address:</span> <i class="ans">Malabon City</i></span>
+                            </div>
+                    
+                            <div id="elementary">
+                                <strong>Elementary:</strong> 
+                                <em class="school-name">Ninoy Aquino Elementary</em> 
+                                <span class="spancont"><span class="detail">School Year:</span> <i class="ans">2010 - 2016</i></span> 
+                                <span class="spancont"><span class="detail">Address:</span> <i class="ans">Malabon City</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="lalagyan" id="exp"></div>
+                <div class="lalagyan" id="proj"></div>
+                <div class="lalagyan" id="cont"></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Wait for the page to load
+        window.onload = function() {
+            // Automatically target the #about section
+            if (!window.location.hash) {
+                window.location.hash = 'about';
+            }
+            const aboutLink = document.querySelector('a[href="#about"] .link');
+    if (aboutLink) {
+        aboutLink.classList.add('active');
+    }
+        };
+    </script>
+    <script src="/JS/linkbg.js"></script>
+</body>
+</html>
